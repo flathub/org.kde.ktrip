@@ -1,0 +1,58 @@
+From 4c0b32506f446ab4e3462ce7c09c11a99b7f633b Mon Sep 17 00:00:00 2001
+From: Nicolas Fella <nicolas.fella@gmx.de>
+Date: Sun, 13 Jun 2021 14:04:16 +0200
+Subject: [PATCH] Rename icon for flatpak compatibility
+
+---
+ src/CMakeLists.txt                   | 2 +-
+ src/org.kde.ktrip.desktop            | 2 +-
+ src/{ktrip.svg => org.kde.ktrip.svg} | 0
+ src/resources.qrc                    | 2 +-
+ 4 files changed, 3 insertions(+), 3 deletions(-)
+ rename src/{ktrip.svg => org.kde.ktrip.svg} (100%)
+
+diff --git a/src/CMakeLists.txt b/src/CMakeLists.txt
+index b94a591..d02b82e 100644
+--- a/src/CMakeLists.txt
++++ b/src/CMakeLists.txt
+@@ -43,7 +43,7 @@ else()
+     target_link_libraries(ktrip PRIVATE Qt::Widgets Qt::QuickControls2)
+ endif()
+ 
+-install(FILES ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
++install(FILES org.kde.ktrip.svg DESTINATION ${KDE_INSTALL_FULL_ICONDIR}/hicolor/scalable/apps)
+ 
+ install(TARGETS ktrip ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(PROGRAMS org.kde.ktrip.desktop DESTINATION ${KDE_INSTALL_APPDIR})
+diff --git a/src/org.kde.ktrip.desktop b/src/org.kde.ktrip.desktop
+index 7889a3e..adb4d31 100644
+--- a/src/org.kde.ktrip.desktop
++++ b/src/org.kde.ktrip.desktop
+@@ -48,7 +48,7 @@ GenericName[sv]=Kollektivtrafiknavigering
+ GenericName[uk]=Навігатор громадським транспортом
+ GenericName[x-test]=xxPublic transport navigatorxx
+ Exec=ktrip
+-Icon=ktrip
++Icon=org.kde.ktrip
+ Type=Application
+ Comment=Public transport navigator.
+ Comment[ca]=Navegador de transport públic.
+diff --git a/src/ktrip.svg b/src/org.kde.ktrip.svg
+similarity index 100%
+rename from src/ktrip.svg
+rename to src/org.kde.ktrip.svg
+diff --git a/src/resources.qrc b/src/resources.qrc
+index e83e38b..81e4780 100644
+--- a/src/resources.qrc
++++ b/src/resources.qrc
+@@ -11,6 +11,6 @@
+         <file>qml/DeparturesPage.qml</file>
+         <file>qml/ConnectionHeading.qml</file>
+         <file>qtquickcontrols2.conf</file>
+-        <file>ktrip.svg</file>
++        <file>org.kde.ktrip.svg</file>
+     </qresource>
+ </RCC>
+-- 
+2.32.0
+
