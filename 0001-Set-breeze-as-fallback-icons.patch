@@ -1,0 +1,40 @@
+From dbdf9246d476dc23c1d6e8a541e7f955850607f5 Mon Sep 17 00:00:00 2001
+From: Nicolas Fella <nicolas.fella@gmx.de>
+Date: Sun, 13 Jun 2021 18:01:29 +0200
+Subject: [PATCH] Set breeze as fallback icons
+
+---
+ src/main.cpp | 7 +++++--
+ 1 file changed, 5 insertions(+), 2 deletions(-)
+
+diff --git a/src/main.cpp b/src/main.cpp
+index 5fa8b62..0d734d2 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -14,11 +14,11 @@
+ 
+ #include <QCommandLineOption>
+ #include <QCommandLineParser>
++#include <QIcon>
++#include <QImage>
+ #include <QQmlApplicationEngine>
+ #include <QQmlContext>
+ 
+-#include <QImage>
+-
+ #ifdef Q_OS_ANDROID
+ #include <QGuiApplication>
+ #else
+@@ -38,6 +38,9 @@ Q_DECL_EXPORT
+ int main(int argc, char *argv[])
+ {
+     QCommandLineParser parser;
++
++    QIcon::setFallbackThemeName(QStringLiteral("breeze"));
++
+ #ifdef Q_OS_ANDROID
+     QGuiApplication app(argc, argv);
+ #else
+-- 
+2.32.0
+
