@@ -34,7 +34,6 @@
             "buildsystem": "cmake-ninja",
             "sources": [
                 { "type": "archive", "url": "https://download.kde.org/stable/plasma-mobile/21.07/ktrip-21.07.tar.xz", "sha256": "291fc525f028cd61ea861c4d1492788382e74134dbccf91c599746713490f4a9" },
-                { "type": "patch", "path": "0001-appstream-Add-proper-summary.patch" },
                 { "type": "patch", "path": "0001-Rename-icon-for-flatpak-compatibility.patch" }
             ]
         }
