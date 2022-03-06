@@ -19,8 +19,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/21.12.2/src/kpublictransport-21.12.2.tar.xz",
-                    "sha256": "54a729bc3d3e1f32836d8e566d3bb7ca30f12a4f0bafa2fa67be5512e7bbce09"
+                    "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpublictransport-21.12.3.tar.xz",
+                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9"
                 }
             ]
         },
