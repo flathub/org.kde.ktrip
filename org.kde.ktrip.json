@@ -11,7 +11,6 @@
         "--device=dri",
         "--share=network"
     ],
-
     "modules": [
         {
             "name": "kpublictransport",
@@ -20,20 +19,48 @@
                 {
                     "type": "archive",
                     "url": "https://download.kde.org/stable/release-service/21.12.3/src/kpublictransport-21.12.3.tar.xz",
-                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9"
+                    "sha256": "063354de6ff55cb48fe902e49baf433d3616bddfc3d3a2dd770a888157518bc9",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
+                    }
                 }
             ]
         },
         {
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
-            "sources": [ { "type": "archive", "url": "https://download.kde.org/unstable/kirigami-addons/0.2/kirigami-addons-0.2.tar.xz", "sha256": "f8be68831c3261cfd2ffd84b61530cdf84c9cc5f26101d0c48e185b7f0017092"} ]
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/unstable/kirigami-addons/0.2/kirigami-addons-0.2.tar.xz",
+                    "sha256": "f8be68831c3261cfd2ffd84b61530cdf84c9cc5f26101d0c48e185b7f0017092",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242933,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/unstable/kirigami-addons/$version/kirigami-addons-$version.tar.xz"
+                    }
+                }
+            ]
         },
         {
             "name": "ktrip",
             "buildsystem": "cmake-ninja",
             "sources": [
-                { "type": "archive", "url": "https://download.kde.org/stable/plasma-mobile/22.02/ktrip-22.02.tar.xz", "sha256": "3dff0940dbc61595ea54ef223481a98e82852bda53a1fdb12bb5ad1df7a6c52a" }
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.02/ktrip-22.02.tar.xz",
+                    "sha256": "3dff0940dbc61595ea54ef223481a98e82852bda53a1fdb12bb5ad1df7a6c52a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 242860,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/plasma-mobile/$version/ktrip-$version.tar.xz"
+                    }
+                }
             ]
         }
     ]
