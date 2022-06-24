@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.04/ktrip-22.04.tar.xz",
-                    "sha256": "3d5944ee485cb1ba519c1617100c12cc7ed9306a237ba52ca12211d6550a5ec6",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.06/ktrip-22.06.tar.xz",
+                    "sha256": "145f6a59b383feb527bb7369a86552b33a6bdbd1eb19f5de859d34a430386788",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242860,
