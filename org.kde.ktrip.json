@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.1/src/kpublictransport-22.08.1.tar.xz",
-                    "sha256": "e94d6204c143e192277a6a5a78b4ceab5fc2c20c045da3c9a9252082a3f7ff7c",
+                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/kpublictransport-22.08.2.tar.xz",
+                    "sha256": "d7fbaf368279b5a6f4386bed963435457676a3576e69062f1516ca14655a6870",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
