@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.08.2/src/kpublictransport-22.08.2.tar.xz",
-                    "sha256": "d7fbaf368279b5a6f4386bed963435457676a3576e69062f1516ca14655a6870",
+                    "url": "https://download.kde.org/stable/release-service/22.08.3/src/kpublictransport-22.08.3.tar.xz",
+                    "sha256": "7f6d3fb644ec9286ef74a7763e97b983b140ceac17ce48e3a684cc66807e4dfe",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.5.tar.xz",
-                    "sha256": "1b1a4d65cfeabe5406e5d2837fe3f6c63ac60b7b72db2c957552c8b47108b9b3",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.6.tar.xz",
+                    "sha256": "2fc18d25ad684d5fec260b872c3320068290c59abab50e26a61811ca8bd5882f",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/plasma-mobile/22.09/ktrip-22.09.tar.xz",
-                    "sha256": "34d7bb14cb69acbfa8576e57d05004a1739323b22be9365efdc76f2ba0273a75",
+                    "url": "https://download.kde.org/stable/plasma-mobile/22.11/ktrip-22.11.tar.xz",
+                    "sha256": "c7eb0b95203204bb54be026fcaa9c7216b5287c77e11cf35ec1108796572b21e",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242860,
