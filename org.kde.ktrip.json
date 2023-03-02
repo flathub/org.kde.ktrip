@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/22.12.2/src/kpublictransport-22.12.2.tar.xz",
-                    "sha256": "13d3158eabee5b180adb90b81d780a8a0547921319a688c7696dca1398cd30e4",
+                    "url": "https://download.kde.org/stable/release-service/22.12.3/src/kpublictransport-22.12.3.tar.xz",
+                    "sha256": "8c5f79f4672965defe3db8e0a0bc6755b2a0e9b7906219ea6af366425bf95dd2",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -35,8 +35,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.0.tar.xz",
-                    "sha256": "0132a58b150229544a61e17e792c48cfc6daa03a8be9c7acd873a6c30d283df7",
+                    "url": "https://download.kde.org/stable/kirigami-addons/kirigami-addons-0.7.1.tar.xz",
+                    "sha256": "c4e94821e81fcda173e71e9bfd5def66961a276278dc784b9b0c6f7cbcd4a0c8",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242933,
