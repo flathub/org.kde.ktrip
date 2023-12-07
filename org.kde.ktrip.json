@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/23.08.3/src/ktrip-23.08.3.tar.xz",
-                    "sha256": "8ab75c456b2d75c14be57e3ed8df7a5c422443eda22827ae4f822b5ec565ac85",
+                    "url": "https://download.kde.org/stable/release-service/23.08.4/src/ktrip-23.08.4.tar.xz",
+                    "sha256": "af13dba80bcd1b8f930a786b4ce929788dece39a15175099d2171a0c310432b1",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242860,
