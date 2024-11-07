@@ -18,8 +18,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/kpublictransport-24.08.2.tar.xz",
-                    "sha256": "aa44a355dcfb902ef44480c54940df747dee8f7fb36301dafbcf05ec30a234e1",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/kpublictransport-24.08.3.tar.xz",
+                    "sha256": "6358b8d7c6dc19008ee9e585d393db8f141c6d5f77cfc18f3d30e7a4d6bc64fd",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 8763,
@@ -52,8 +52,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/24.08.2/src/ktrip-24.08.2.tar.xz",
-                    "sha256": "3e29c77f3fcb333b3b2b217ad0aea280b58542409304006b854b4adab637a122",
+                    "url": "https://download.kde.org/stable/release-service/24.08.3/src/ktrip-24.08.3.tar.xz",
+                    "sha256": "b7f86b60e330a92c480423f12587daaf0d3fb6a3ca53a1c56bb5468a832154b6",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242860,
