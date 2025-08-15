@@ -13,25 +13,9 @@
     ],
     "modules": [
         {
-            "name": "kpublictransport",
-            "buildsystem": "cmake-ninja",
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/kpublictransport-25.04.3.tar.xz",
-                    "sha256": "637bac5ff238b92d31c4a677e92a7319981611795756348552f00dd528425e5e",
-                    "x-checker-data": {
-                        "type": "anitya",
-                        "project-id": 8763,
-                        "stable-only": true,
-                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
-                    }
-                }
-            ]
-        },
-        {
             "name": "kirigami-addons",
             "buildsystem": "cmake-ninja",
+            "builddir": true,
             "sources": [
                 {
                     "type": "archive",
@@ -47,13 +31,30 @@
             ]
         },
         {
+            "name": "kpublictransport",
+            "buildsystem": "cmake-ninja",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/kpublictransport-25.08.0.tar.xz",
+                    "sha256": "fd0190081f4be172711ec1e0e5702805bcf9c00c73a08a42ba3790167cabab0a",
+                    "x-checker-data": {
+                        "type": "anitya",
+                        "project-id": 8763,
+                        "stable-only": true,
+                        "url-template": "https://download.kde.org/stable/release-service/$version/src/kpublictransport-$version.tar.xz"
+                    }
+                }
+            ]
+        },
+        {
             "name": "ktrip",
             "buildsystem": "cmake-ninja",
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://download.kde.org/stable/release-service/25.04.3/src/ktrip-25.04.3.tar.xz",
-                    "sha256": "09527b0b90c1d54d941834014746314767bd746f72cefa08dcb3ea24369969fa",
+                    "url": "https://download.kde.org/stable/release-service/25.08.0/src/ktrip-25.08.0.tar.xz",
+                    "sha256": "bfcadd7101809c0ae371e0050485c669ad1636440dd22fc352db895a949460b7",
                     "x-checker-data": {
                         "type": "anitya",
                         "project-id": 242860,
